@@ -1,10 +1,11 @@
 CREATE DATABASE DeDe;
 USE DeDe;
 
-CREATE TABLE `chirps` (
+CREATE TABLE `DeDe` (
   `id` Int( 11 ) AUTO_INCREMENT NOT NULL,
-  `author` VARCHAR( 255) NOT NULL,
-  `body` VARCHAR( 255 ) NOT NULL,
+  `drinks` VARCHAR( 255) NOT NULL,
+  `abv` VARCHAR(255) NOT NULL,
+  `calories` VARCHAR( 255 ) NOT NULL,
   `created_at` DATETIME NOT NULL,
 
   PRIMARY KEY ( `id` ) 
